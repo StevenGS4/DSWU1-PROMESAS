@@ -1,1 +1,5 @@
-CRUD VALIDACIONES DE API en insomnia
+29/09/2025-U1-Ejercicio Insomnia - Validaciones-INDIVIDUAL
+
+En el desarrollo de aplicaciones web modernas es fundamental contar con sistemas que permitan gestionar información de manera eficiente y segura. Una de las formas más comunes de hacerlo es a través de APIs RESTful, que proporcionan servicios para crear, leer, actualizar y eliminar datos, mejor conocidos como operaciones CRUD (Create, Read, Update, Delete).
+En esta práctica se implementó un CRUD de usuarios utilizando Node.js con el framework Express, organizando el proyecto en capas: modelo, controlador, rutas y servidor principal. Además, se añadieron validaciones de errores para garantizar la integridad de los datos ingresados, como verificar que los campos obligatorios estén presentes, que el correo tenga un formato válido, que el nombre no esté vacío y que la edad sea un número positivo.
+Este enfoque no solo permite mantener un código más ordenado y escalable, sino que también sienta las bases para aplicaciones más robustas, seguras y fáciles de mantener en el futuro.
