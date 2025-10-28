@@ -13,6 +13,7 @@ app.use(express.json());
 
 app.get("/", (_req, res) => res.json({ ok: true, service: "tienda-backend" }));
 
+// Rutas
 app.use("/api/usuarios", usuariosRoutes);
 app.use("/api/productos", productosRoutes);
 app.use("/api/carrito", carritoRoutes);
